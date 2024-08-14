@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Figtree;
+}
+
+:root {
+  --bg-main-color: #f4d04e;
+  --text-color-main: #111111;
+  --secondary-text: #6b6b6b;
+  --card-bg: #ffffff;
+}
+
+body {
+  background-color: var(--bg-main-color);
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0px;
+  border: none;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20vh auto;
+  background-color: var(--card-bg);
+  -webkit-box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 1);
+}
+
+#page-main #illustration-pic {
+  width: 88%;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+main #page-main span {
+  display: flex;
+  font-weight: bold;
+  padding: 0.3vh 40px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 20px 25px;
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--bg-main-color);
+}
+
+#page-main > p:first-of-type {
+  text-align: left;
+  margin: 0px 0px 20px 25px;
+  font-weight: 500;
+}
+
+#page-main #content-card h2 {
+  text-align: left;
+  margin: 0px 0px 12px 25px;
+}
+
+#page-main #content-card p {
+  text-align: left;
+  padding: 0px 25px 0px 0px;
+  margin: 0px 0px 20px 25px;
+  color: var(--secondary-text);
+}
+
+#profile-credits {
+  display: flex;
+}
+
+#profile-credits img {
+  width: 32px;
+  height: 32px;
+  margin: 0px 0px 12px 25px;
+}
+
+#page-main #profile-credits p {
+  padding: 6px 0px 0px 12px;
+  font-weight: bold;
+}
