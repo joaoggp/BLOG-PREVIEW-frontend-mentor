@@ -28,7 +28,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 20vh auto;
+  margin: 25vh auto 0px;
   background-color: var(--card-bg);
   -webkit-box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 1);
   -moz-box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 1);
@@ -65,6 +65,12 @@ main #page-main span {
 #page-main #content-card h2 {
   text-align: left;
   margin: 0px 0px 12px 25px;
+  transition: color .2s ease-in-out;
+}
+
+#page-main #content-card h2:hover{
+  color: var(--bg-main-color);
+  cursor: pointer;
 }
 
 #page-main #content-card p {
